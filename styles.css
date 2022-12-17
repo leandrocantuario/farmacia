@@ -1,0 +1,98 @@
+html {
+    background: #F0C4E6;
+}
+
+body {
+    font-family: 'Raleway';
+    margin: 0px;
+}
+
+#top-section {
+    min-width: 50vh;
+    background-color: #76BEBE;
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    min-width: 100vh;
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.logo {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 161px;
+
+}
+
+form {
+    margin-left: 3rem;
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 467px;
+
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    max-width: 500px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 0px;    
+}
+
+label {
+    padding-bottom: 7px;
+    padding-top: 17px;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Alegreya Sans SC';
+    text-align: left;
+}
+
+.submit-button {
+    background: #76BEBE;
+    border-radius: 10px;
+    border: none;
+    width: 220px;
+    height: 52px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-style: normal;
+    margin: 0 auto;
+
+}
+
+.title {
+    padding-top: 4rem;
+    padding-right: 5rem;
+    color: #CF509C;
+    font-weight: 400;
+    margin: 0px;
+}
+
+#sec-form {
+    padding-top: 56px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30vw;
+    margin-top: 5px;
+    margin-left: -15px;
+    background: #F0C4E6;
+    text-align: center;
+}

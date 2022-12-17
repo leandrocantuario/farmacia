@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title> Farmácia da Gente </title>
+</head>
+
+<body>
+    <section id="top-section">
+        <h1>Home</h1>
+        <h1>Cadastro de Medicamentos</h1>
+        <h1>Cadastro de Vacinas</h1>
+        <h1>Cadastro de Comésticos</h1>
+    </section>
+
+    <header>
+        <img class="logo" src="logo.svg" alt="Logo da Farmácia">
+        <h1 class="title"> Cadastro de Medicamentos</h1>
+    </header>
+
+    <section id="sec-form">
+        <div id="form">
+            <form onsubmit="addMed()">
+                <label for="farmName">Nome do Medicamento</label>
+                <input autocomplete="off" type="text" required id="fName" name="name">
+                <label for="farmQuant">Quantidade Disponível</label>
+                <input autocomplete="off" type="text" required id="fQuant" name="quant">
+                <label for="farmPrice">Preço por Unidade</label>
+                <input autocomplete="off" type="text" required id="fPrice" name="price">
+                <label for="farmClass">Classe de Medicamento</label>
+                <input autocomplete="off" type="text" required id="fClass" name="class" style="margin-bottom: 58px">
+                <button class="submit-button" type="submit"> Cadastrar </button>
+            </form>
+        </div>
+    </section>
+</body>
+
+
+</html>
